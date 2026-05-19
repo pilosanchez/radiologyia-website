@@ -182,7 +182,7 @@
       border-radius: 20px;
       padding: 32px;
       transition: all 0.3s;
-      position: relative; overflow: hidden;
+      position: relative;
     }
     .card:hover { border-color: rgba(45,212,191,0.25); transform: translateY(-4px); box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
     .card::before {
@@ -745,7 +745,7 @@
   </div>
 
   <!-- Cards -->
-  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:960px;margin:0 auto;" class="pricing-grid">
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:960px;margin:0 auto;padding-top:20px;overflow:visible;" class="pricing-grid">
 
     <!-- BÁSICO -->
     <div class="card" style="padding:32px;display:flex;flex-direction:column;gap:0;">
@@ -771,7 +771,7 @@
     </div>
 
     <!-- ESTÁNDAR (destacado) -->
-    <div class="card" style="padding:32px;display:flex;flex-direction:column;gap:0;border-color:rgba(45,212,191,0.4);background:linear-gradient(160deg,rgba(45,212,191,0.08),rgba(29,78,216,0.06));position:relative;transform:translateY(-8px);">
+    <div class="card" style="padding:32px;padding-top:26px;display:flex;flex-direction:column;gap:0;border-color:rgba(45,212,191,0.4);background:linear-gradient(160deg,rgba(45,212,191,0.08),rgba(29,78,216,0.06));position:relative;transform:translateY(-8px);overflow:visible;">
       <div style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--teal);color:var(--navy);font-size:0.72rem;font-weight:700;padding:4px 16px;border-radius:100px;white-space:nowrap;display:flex;align-items:center;gap:6px;">
         <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
         Más popular
